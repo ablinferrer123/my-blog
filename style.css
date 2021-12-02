@@ -1,0 +1,112 @@
+body{
+	max-width: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+header{
+	text-align: center;
+	color: white;
+	height: 400px;
+	padding: 5px;
+	background-image: url("images/header-bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+}
+header h1{
+	font-size: 53px;
+	margin-top: 5%;
+	font-family: "Audiowide", sans-serif;
+}
+header p{
+	font-size: 25px;
+}
+
+.container{
+	display: flex;
+	max-width: 100%;
+}
+.container:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.my-family-heading{
+	text-align: center;
+}
+.my-family{
+	width: 70%;
+	
+}
+.family-row{
+	display: flex;
+}
+.family-row img{
+	border-radius: 50%;
+}
+.left{
+	width: 70%;
+	margin: 10px 3%;
+}
+.left p{
+	line-height: .75cm;
+}
+
+
+.right{
+	width: 30%;
+	margin: 25px 3%;
+	border-radius: 20px;
+}
+.right p{
+	line-height: .75cm;
+}
+.about-me{
+	color: white;
+	background-color: #708090;
+	border-radius: 10px;
+	padding: 10px 15px;
+}
+.me-photo{
+	display: block;
+	margin: 5px auto;
+	border-radius: 50%;
+}
+.card{
+	text-align: center;
+	font-weight: 550;
+	margin-top: 30px;
+}
+figcaption{
+	color: blue;
+	font-weight: 600;
+	margin-top: 10px;
+	font-style: italic;
+}
+.fig-1{
+	width: 50%;
+	display: flex;
+}
+.fig-2{
+	width: 50%;
+	display: flex;
+}
+footer{
+	background-color: #000000;
+	color: white;
+	display: flex;
+}
+footer:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+footer h3{
+	font-family: "Audiowide", sans-serif;
+}
+.owners-info{
+	width: 20%;
+	margin: 10px 3%;
+}
